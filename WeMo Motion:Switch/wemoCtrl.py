@@ -14,9 +14,10 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import math
 
-
+# Change the following as reported by ssdp.py code
 host = '129.94.5.93'
 port = 49154
+#------------------------------------------------
 
 def attackSOAP(commands):
 	argList = '<'+commands[3]+'>'+commands[0]+'</'+commands[3]+'><'+commands[3]+'>Boolean</'+commands[3]+'>'
