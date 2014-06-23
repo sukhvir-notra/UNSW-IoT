@@ -2,7 +2,6 @@ import requests
 import json
 import time
 
-
 # Change hue IP to ip address of your philips Hue 
 hueIP = '129.94.5.95'
 # Find this by capturing traffic between your app and the philips hue when in the same
