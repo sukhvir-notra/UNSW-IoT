@@ -1,3 +1,7 @@
+'''
+This Code is in very early stages. It will be updated constantly with future work
+
+'''
 import requests
 import easygui
 
